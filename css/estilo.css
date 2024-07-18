@@ -1,27 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 #topo {
-    background-color: burlywood;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    color: red;
 }
-#menu
-{
+#menu {
+    background-color: antiquewhite;
+}
+.destaques, .produtos, .sobre, .contato {
     background-color: blueviolet;
 }
-.destaques{
-    background-color: coral;
+#rodape p {
+    background-color: aqua;
+    font-weight: 900;
+    font-size: 130%;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
 }
-#rodape {
-    background-color: brown;
+a{
+    text-decoration: none;
+
 }
-#logo
-{
-    background-color: black;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 250px;
-    height: 550px;
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    border: solid 2px rgb(0, 0, 0);
 }
