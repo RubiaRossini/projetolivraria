@@ -10,7 +10,7 @@
     background-color: antiquewhite;
 }
 .destaques, .produtos, .sobre, .contato {
-    background-color: blueviolet;
+    background-color: yellowgreen;
 }
 #rodape p {
     background-color: aqua;
@@ -33,4 +33,12 @@ a:hover{
     font-size: 20px;
     margin: 5px;
     border: solid 2px rgb(0, 0, 0);
+}
+a:link
+{
+    background-color: chocolate;
+}
+a:visited
+{
+    background-color: darkcyan;
 }
